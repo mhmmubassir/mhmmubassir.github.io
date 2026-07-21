@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#f7f8f5" name="theme-color"/>
+<meta content="M H M Mubassir is a computational virologist integrating phylodynamics and structural biology to study viral evolution, functional diversity, and cross-host emergence." name="description"/>
+<meta content="M H M Mubassir | Computational Virology, Structural Biology and Phylodynamics" property="og:title"/>
+<meta content="Understanding how viral genetic diversity becomes functional diversity, and how that change shapes cross-host emergence." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://mhmmubassir.github.io/" property="og:url"/>
+<script>(function(){var r=document.documentElement;r.className+=' js';var t;try{t=localStorage.getItem('mhm-theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}r.setAttribute('data-theme',t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content',t==='light'?'#f7f8f5':'#111517')})();</script><link href="https://mhmmubassir.github.io/" rel="canonical"/>
+<meta content="https://mhmmubassir.github.io/assets/img/social-card.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="M H M Mubassir, Computational Virology, Structural Biology and Phylodynamics" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="M H M Mubassir | Computational Virology, Structural Biology and Phylodynamics" name="twitter:title"/>
+<meta content="Understanding how viral genetic diversity becomes functional diversity, and how that change shapes cross-host emergence." name="twitter:description"/>
+<meta content="https://mhmmubassir.github.io/assets/img/social-card.png" name="twitter:image"/>
+<link href="assets/img/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/site.css?v=20260722-v7" rel="stylesheet"/>
+<title>M H M Mubassir | Computational Virology, Structural Biology and Phylodynamics</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "M H M Mubassir",
+  "url": "https://mhmmubassir.github.io/",
+  "jobTitle": "Ph.D. Candidate in Bioinformatics",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Georgia"
+  },
+  "sameAs": [
+    "https://scholar.google.com/citations?hl=en&user=Utb--oIAAAAJ",
+    "https://orcid.org/0000-0002-9674-2425",
+    "https://github.com/mhmmubassir",
+    "https://www.linkedin.com/in/mhmmubassir",
+    "https://www.researchgate.net/profile/M-H-M-Mubassir",
+    "https://www.bracu.ac.bd/about/people/m-h-m-mubassir"
+  ],
+  "knowsAbout": [
+    "Computational virology",
+    "Phylodynamics",
+    "Structural biology",
+    "Molecular dynamics",
+    "Influenza",
+    "Viral evolution",
+    "Receptor biology",
+    "Pandemic risk assessment"
+  ],
+  "description": "Computational virologist integrating phylodynamics and structural biology to study how viral genetic diversity becomes functional diversity and cross-host risk."
+}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div aria-hidden="true" class="loader">
+<div class="loader-mark">MHM</div>
+<div class="loader-line"></div>
+</div>
+<header class="site-header" id="top">
+<a aria-label="M H M Mubassir home" class="brand" href="#top">
+<span class="brand-mark">M</span>
+<span class="brand-name">M H M Mubassir</span>
+</a>
+<nav aria-label="Primary navigation" class="desktop-nav"><a href="#about">About</a><a href="#vision">Vision</a><a href="#methods">Ecosystem</a><a href="#structure">Structure</a><a href="#projects">Research</a><a href="#publications">Publications</a><a href="#learning">Learning</a><a href="#contact">Contact</a></nav>
+<div class="header-actions"><button aria-label="Switch to dark theme" aria-pressed="true" class="theme-toggle" data-cursor-label="TOGGLE THEME" id="theme-toggle" type="button"><span aria-hidden="true" class="theme-toggle-track"><i class="theme-toggle-sun">☼</i><b></b><i class="theme-toggle-moon">◐</i></span><span class="theme-toggle-text">Dark</span></button>
+<a class="profile-link" href="https://scholar.google.com/citations?hl=en&amp;user=Utb--oIAAAAJ" rel="noopener" target="_blank">Scholar <span class="link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></span></a>
+<button aria-expanded="false" aria-label="Open menu" class="menu-button" type="button">
+<span></span><span></span>
+</button>
+</div>
+</header>
+<div aria-hidden="true" class="mobile-menu">
+<nav aria-label="Mobile navigation"><a href="#about">About</a><a href="#vision">Vision</a><a href="#methods">Ecosystem</a><a href="#structure">Structure</a><a href="#projects">Research</a><a href="#publications">Publications</a><a href="#learning">Learning</a><a href="#contact">Contact</a></nav>
+</div>
+<main id="main">
+<section aria-labelledby="hero-title" class="hero">
+<canvas aria-hidden="true" id="field"></canvas>
+<div aria-hidden="true" class="sequence sequence-a">MNPNQKIITI · HA1 · 130 LOOP · 190 HELIX · 220 LOOP</div>
+<div aria-hidden="true" class="sequence sequence-b">AVIAN → CATTLE · SEQUENCE → STRUCTURE → FUNCTION · α2,3 ⇄ α2,6</div>
+<div class="hero-inner hero-inner-text">
+<div class="hero-copy hero-copy-wide">
+<p class="overline"><span></span> Computational virology · Structural biology · Phylodynamics</p>
+<h1 id="hero-title">
+<span class="name-line">M H M Mubassir</span>
+<span class="statement">Evolution leaves a<br/><em>structural signature.</em></span>
+</h1>
+<p class="hero-intro">I study how viral evolution changes molecular structure, receptor biology, and host range, linking global phylogenetics with structural biology.</p>
+<div class="hero-links"><a class="button button-primary" href="#about">About my work <span class="button-icon"><svg aria-hidden="true" class="ui-icon ui-icon-down" viewBox="0 0 20 20"><path d="m5.5 8 4.5 4.5L14.5 8"/></svg></span></a><a class="button button-quiet" href="#methods">Explore research ecosystem</a></div>
+<div class="affiliation-line">
+<span>Ph.D. Candidate, Bioinformatics</span>
+<span>University of Georgia</span>
+</div><div aria-label="Research scale" class="hero-facts">
+<div><strong>37K+</strong><span>global H5 HA sequences</span></div>
+<div><strong>4K+</strong><span>unique H5 variants</span></div>
+<div><strong>1996 to 2026</strong><span>global evolutionary window</span></div>
+</div>
+</div>
+</div>
+<a aria-label="Scroll to about section" class="scroll-cue" href="#about"><span>Scroll</span><i></i></a>
+</section>
+<section class="about" id="about">
+<div class="section-shell">
+<p class="section-index">00 / About</p>
+<div class="about-grid">
+<div class="about-portrait">
+<div class="portrait-monogram">MHM</div>
+<img alt="Portrait of M H M Mubassir" width="900" height="900" loading="lazy" decoding="async" onerror="this.style.display='none'" src="https://avatars.githubusercontent.com/u/89660867?s=900&amp;v=4"/>
+<div class="portrait-caption"><span>Athens, Georgia</span><span>Structure · evolution · phylodynamics</span></div>
+</div>
+<div class="about-copy">
+<h2>Scientist, educator,<br/><em>framework builder.</em></h2>
+<p class="lead">I am a Ph.D. candidate in Bioinformatics at the University of Georgia, advised by Dr. Justin Bahl, and a Lecturer at BRAC University.</p>
+<p>My training spans agriculture, biotechnology, bioscience, pharmacy, protein design, and bioinformatics. I have worked across influenza A and B, RSV, hMPV, SARS-CoV-2, mpox, and plant immune receptors. This experience shaped how I approach viral emergence as a connected problem across evolution, structure, molecular mechanism, ecology, and computation.</p>
+<div class="about-facts">
+<div><small>Current</small><strong>Bahl Lab · UGA</strong></div>
+<div><small>Ph.D. expected</small><strong>2027</strong></div>
+<div><small>Teaching</small><strong>Top 1% evaluation</strong></div>
+<div><small>Training</small><strong>Bioinformatics · Pharmacy · Bioscience</strong></div>
+</div>
+<p class="about-personal"><span>Outside science</span> I enjoy filmmaking and visual storytelling.</p>
+<div class="about-links">
+<!-- If you ever publish a CV, add it back here:
+     <a class="text-link" href="assets/cv/mubassir-cv.pdf">Download CV (PDF) <span class="link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-down" viewBox="0 0 20 20"><path d="m5.5 8 4.5 4.5L14.5 8"/></svg></span></a> -->
+<a class="text-link" href="https://scholar.google.com/citations?hl=en&amp;user=Utb--oIAAAAJ" rel="noopener" target="_blank">View publications on Google Scholar <span class="link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></span></a>
+</div>
+</div>
+</div>
+</div>
+</section><section aria-labelledby="vision-title" class="scientific-vision" id="vision">
+<canvas aria-hidden="true" id="vision-field"></canvas>
+<div class="section-shell scientific-vision-inner">
+<div class="vision-copy">
+<p class="section-index">01 / Scientific vision</p>
+<h2 id="vision-title">From genetic diversity<br/>to <em>functional risk.</em></h2>
+<p class="vision-lead">Rather than studying mutations in isolation, I investigate how standing phenotypic diversity emerges across whole viral populations, and how that diversity shapes future host transitions.</p>
+<p>My long-term goal is to identify functional evolutionary change before it becomes visible through outbreaks, enabling earlier surveillance, improved risk assessment, and more proactive pandemic preparedness.</p>
+</div>
+<div aria-label="Scientific vision from genetic diversity to cross-host risk" class="vision-flow">
+<div class="vision-stage stage-genetic"><small>01</small><strong>Genetic diversity</strong><span>Population variation</span></div>
+<div class="vision-connector"><i></i><b></b></div>
+<div class="vision-stage stage-structural"><small>02</small><strong>Structural consequence</strong><span>Receptor biology</span></div>
+<div class="vision-connector"><i></i><b></b></div>
+<div class="vision-stage stage-functional"><small>03</small><strong>Functional breadth</strong><span>Standing phenotype</span></div>
+<div class="vision-connector"><i></i><b></b></div>
+<div class="vision-stage stage-risk"><small>04</small><strong>Cross-host risk</strong><span>Earlier signal</span></div>
+<div aria-hidden="true" class="vision-signal"><span></span><span></span><span></span><span></span></div>
+</div>
+</div>
+</section><section aria-labelledby="methods-title" class="methods-map" id="methods">
+<div class="section-shell methods-heading">
+<div>
+<p class="section-index">02 / Research ecosystem</p>
+<h2 id="methods-title">Integrating evolution,<br/><em>structure, and ecology.</em></h2>
+</div>
+<div class="methods-heading-copy">
+<div class="methods-instruction"><i aria-hidden="true"></i><span>Drag any bubble · tap a domain to focus · select a tool to inspect</span></div>
+</div>
+</div>
+<div class="methods-network-shell">
+<div class="methods-network-stage" id="methods-network-stage">
+<div class="methods-network-topbar">
+<div class="methods-network-kicker"><i aria-hidden="true"></i><span>Domains · methods · tools · biological systems</span></div>
+<div class="methods-controls">
+<button aria-pressed="false" data-cursor-label="FOCUS DOMAINS" id="methods-expand" type="button">Collapse clusters</button>
+<button aria-pressed="false" data-cursor-label="PAUSE NETWORK" id="methods-pause" type="button">Pause motion</button>
+<button data-cursor-label="RESET NETWORK" id="methods-reset" type="button">Reset layout</button>
+</div>
+</div>
+<svg aria-labelledby="ecosystem-svg-title ecosystem-svg-desc" class="research-ecosystem-svg" data-cursor-label="EXPLORE DOMAINS" id="research-ecosystem-svg" preserveaspectratio="xMidYMid meet" role="img">
+<title id="ecosystem-svg-title">Interactive map of M H M Mubassir's research ecosystem</title>
+<desc id="ecosystem-svg-desc">A responsive network connecting viral systems, structural biology, molecular dynamics and docking, phylodynamics, epidemiology and preparedness, future predictive biology, and scientific computing.</desc>
+<defs>
+<filter height="260%" id="ecosystem-glow" width="260%" x="-80%" y="-80%"><fegaussianblur result="blur" stddeviation="6"></fegaussianblur><femerge><femergenode in="blur"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<filter height="260%" id="ecosystem-soft-glow" width="260%" x="-80%" y="-80%"><fegaussianblur result="blur" stddeviation="2.5"></fegaussianblur><femerge><femergenode in="blur"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<radialgradient id="ecosystem-core-fill"><stop offset="0" stop-color="#f8fbff" stop-opacity=".24"></stop><stop offset=".52" stop-color="#d9d1ff" stop-opacity=".12"></stop><stop offset="1" stop-color="#6ee7d0" stop-opacity=".025"></stop></radialgradient>
+</defs>
+<g aria-hidden="true" class="ecosystem-backdrop"></g>
+<g aria-hidden="true" class="ecosystem-edges"></g>
+<g aria-hidden="true" class="ecosystem-pulses"></g>
+<g class="ecosystem-nodes"></g>
+<g aria-hidden="true" class="ecosystem-mobile-label"></g>
+</svg>
+<div aria-live="polite" class="methods-inspector">
+<small id="method-inspector-category">Research map</small>
+<h3 id="method-inspector-title">How I study viral evolution</h3>
+<p id="method-inspector-description">Explore the connected biological questions, methods, and software that link viral evolution with structure, ecology, and preparedness.</p>
+<div class="methods-inspector-foot">
+<span class="methods-inspector-status" id="method-inspector-status">Research ecosystem</span>
+<a hidden="" id="method-inspector-link" rel="noopener" target="_blank">Open official resource</a>
+</div>
+</div>
+<ul class="methods-accessible-list" id="methods-accessible-list"></ul>
+</div>
+</div>
+<noscript><p class="methods-fallback">The interactive research ecosystem requires JavaScript. The rest of the website remains available.</p></noscript>
+</section><section aria-labelledby="structure-title" class="structure-section" id="structure"><div class="section-shell structure-section-inner"><div class="structure-section-copy"><p class="section-index">03 / Structural biology</p>
+<h2 id="structure-title">Structure,<br/><em>in real space.</em></h2>
+<p class="structure-lead">An experimental H5 hemagglutinin structure anchors the structural side of my research, connecting receptor recognition, molecular dynamics, energetic interpretation, and evolutionary change.</p>
+<div class="structure-summary-grid">
+<div><small>Protein</small><strong>H5 HA trimer</strong></div>
+<div><small>Virus</small><strong>A/Texas/37/2024</strong></div>
+<div><small>Ligand</small><strong>Avian analog LSTa</strong></div>
+<div><small>Resolution</small><strong>2.32 Å</strong></div>
+</div>
+<p class="structure-hint">Drag to rotate · scroll to zoom · open the PDB record for full experimental details.</p><p class="structure-citation"><span>Structure source</span> PDB 9DIP, reported by Lin et al. in <em>Science</em> 386, 1128 to 1134 (2024). <a href="https://doi.org/10.1126/science.adt0180" rel="noopener" target="_blank">Paper <svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a> <a href="https://doi.org/10.2210/pdb9DIP/pdb" rel="noopener" target="_blank">PDB record <svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a></p></div><div aria-label="Interactive experimental H5 hemagglutinin structure with an animated structural-biology environment" class="structure-section-art">
+<div class="structure-stage structure-stage-refined" data-cursor-label="ROTATE 9DIP">
+<div aria-hidden="true" class="structure-ambient">
+<span class="ambient-glow glow-one"></span>
+<span class="ambient-glow glow-two"></span>
+<span class="ambient-glow glow-three"></span>
+<span class="ambient-thread thread-one"></span>
+<span class="ambient-thread thread-two"></span>
+<span class="ambient-particle particle-one"></span>
+<span class="ambient-particle particle-two"></span>
+<span class="ambient-particle particle-three"></span>
+<span class="ambient-particle particle-four"></span>
+</div>
+<div class="structure-layer hero-structure" data-cursor-label="ROTATE 9DIP">
+<div aria-label="Interactive three-dimensional view of PDB 9DIP, H5 hemagglutinin bound to an avian receptor analog" id="molstar-viewer"></div>
+<div aria-live="polite" class="structure-fallback" id="structure-fallback">
+<div aria-hidden="true" class="molecular-loader"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<span>Experimental structure 9DIP</span>
+</div>
+</div>
+<div class="structure-info-panel">
+<div class="structure-info-kicker"><i></i><span>Experimental structure</span></div>
+<h3>H5 hemagglutinin trimer</h3>
+<p>A/Texas/37/2024 (H5N1) · bound to the avian receptor analog LSTa</p>
+<div class="structure-info-details">
+<span>X-ray diffraction</span><span>2.32 Å</span>
+<a data-cursor-label="OPEN PDB" href="https://www.rcsb.org/structure/9DIP" rel="noopener" target="_blank">PDB 9DIP <svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a>
+</div>
+</div>
+</div>
+</div></div></section><section aria-labelledby="evolution-title" class="nextstrain-section evolution-section" id="evolution">
+<canvas aria-hidden="true" id="tree-field"></canvas>
+<div class="nextstrain-shell">
+<div class="nextstrain-copy">
+<p class="section-index">04 / Research visualization · Phylodynamics</p>
+<h2 id="evolution-title">Evolution,<br/><em>seen in motion.</em></h2>
+<p>This animated phylogeny introduces the evolutionary history of U.S. H5N1 clade 2.3.4.4b. Play the timeline here, then open the full Nextstrain build to explore lineage structure, host transitions, geography, and phenotype-aware annotations.</p>
+<div class="tree-actions">
+<a class="button button-primary" data-cursor-label="OPEN TREE" href="https://nextstrain.org/community/mhmmubassir/h5_2344b_USA@main/full" rel="noopener" target="_blank">Open full Nextstrain <span class="button-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></span></a>
+<span>Animated overview · live tree opens separately</span>
+</div>
+<div aria-label="Research layers represented in the Nextstrain project" class="tree-key">
+<span>Phylogeny</span><i></i><span>Host</span><i></i><span>Structure</span><i></i><span>Phenotype</span>
+</div>
+</div>
+<div class="nextstrain-panorama evolution-player" id="evolution-player">
+<div class="evolution-viewport">
+<img alt="Animated phylogeny of U.S. H5N1 clade 2.3.4.4b" class="evolution-tree-art" id="evolution-tree-image" width="720" height="720" decoding="async" src="assets/img/h5-nextstrain-tree.svg"/>
+<div aria-hidden="true" class="evolution-vignette"></div>
+<div aria-hidden="true" class="evolution-sweep"></div>
+<div aria-live="polite" class="evolution-year"><small>Evolutionary time</small><strong id="evolution-year">Jan 2021</strong></div>
+<button aria-label="Play evolution animation" class="evolution-play" data-cursor-label="PLAY EVOLUTION" id="evolution-play" type="button">
+<span aria-hidden="true" class="evolution-play-icon"></span>
+<span id="evolution-play-label">Play evolution</span>
+</button>
+<a class="evolution-live-link" data-cursor-label="OPEN LIVE TREE" href="https://nextstrain.org/community/mhmmubassir/h5_2344b_USA@main/full" rel="noopener" target="_blank">Explore live tree <svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a>
+</div>
+<div aria-hidden="true" class="evolution-timeline">
+<div class="evolution-track"><span id="evolution-progress"></span><i id="evolution-knob"></i></div>
+<div class="evolution-years"><span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span></div>
+</div>
+</div>
+<div class="nextstrain-statline">
+<div><strong>13K+</strong><span>U.S. HA sequences</span></div>
+<div><strong>2,195</strong><span>unique HA variants</span></div>
+<div><strong>Host-aware</strong><span>avian · cattle</span></div>
+<div><strong>Phenotype-aware</strong><span>sequence · structure · function</span></div>
+</div>
+</div>
+</section><section class="program" id="projects">
+<div class="section-shell">
+<div class="section-heading light-heading">
+<p class="section-index">05 / Current research program</p>
+<h2>Two current projects,<br/><em>one future direction.</em></h2>
+<p class="program-intro">A connected program that moves from population-scale H5 evolution to structure-informed prediction.</p></div>
+<div class="program-list" id="project-list"><!--build:projects--><article class="program-item project-atlas"><div class="program-number">01</div><div class="program-copy"><p class="program-label">Aim 1 · United States · 2021 to 2025</p><h3>A population-scale phenotype atlas of H5N1 clade 2.3.4.4b</h3><p class="project-question">What functional capacity was already present before and during emergence in cattle?</p><p class="project-summary">This project integrates approximately 13,000 U.S. hemagglutinin sequences and 2,195 unique HA variants with a time-resolved phylogeny, AlphaFold 3 structures, receptor-binding-site geometry, physicochemical traits, Rosetta and FoldX energetics, molecular dynamics simulations, and glycan-binding interpretation. It tests how standing phenotypic breadth, lineage sorting, and distributed structural change shape cross-host potential.</p><div class="project-status"><i></i><span>First-author manuscript under review at Nature</span></div><div class="project-metrics"><span>13K+ HA sequences</span><span>2,195 variants</span><span>Avian and cattle lineages</span></div><ul><li>Sequence</li><li>Structure</li><li>Function</li><li>AlphaFold 3</li><li>Rosetta</li><li>Molecular dynamics</li><li>Nextstrain</li></ul></div><div class="program-visual visual-atlas"><div class="atlas-sequence-stream"><i></i><i></i><i></i><i></i><i></i><i></i></div><svg viewBox="0 0 620 360" role="img" aria-label="Population-scale sequence, phylogeny, structure, and function atlas"><defs><linearGradient id="scannerFrameGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#716bc2"/><stop offset="1" stop-color="#d87961"/></linearGradient><linearGradient id="scannerBeamGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d87961" stop-opacity="0"/><stop offset=".5" stop-color="#f2a45f"/><stop offset="1" stop-color="#d87961" stop-opacity="0"/></linearGradient></defs><g class="atlas-tree"><path d="M38 176h78V82h84M116 176v102h84M200 82V40h86M200 82v72h86M200 278v-66h86M200 278v38h86"/><path d="M286 40h76M286 154h70M286 212h76M286 316h76"/></g><g class="atlas-host-labels"><text x="278" y="29">AVIAN</text><text x="278" y="145">CATTLE</text><text x="278" y="203">AVIAN</text><text x="278" y="307">CATTLE</text></g><g class="atlas-flow"><path d="M362 40Q399 78 421 112M356 154Q394 155 421 151M362 212Q399 196 421 181M362 316Q401 256 421 202"/></g><g class="phenotype-scanner"><rect class="scanner-shell" x="398" y="70" width="182" height="190" rx="22"/><text class="scanner-title" x="419" y="98">PHENOTYPE SCANNER</text><rect class="scanner-window" x="421" y="116" width="136" height="105" rx="14"/><path class="scanner-protein" d="M438 177c14-32 33 22 48-10s31 21 55-7"/><circle class="scanner-focus" cx="507" cy="165" r="8"/><rect class="scanner-beam" x="427" y="124" width="124" height="14" rx="7"/><path class="scanner-corners" d="M429 135v-10h10M539 125h10v10M429 202v10h10M539 212h10v-10"/></g><g class="atlas-nodes"><circle cx="362" cy="40" r="6"/><circle cx="356" cy="154" r="6"/><circle cx="362" cy="212" r="6"/><circle cx="362" cy="316" r="6"/></g><g class="ssf-labels"><text x="420" y="292" text-anchor="middle">SEQUENCE</text><path d="M449 289h18"/><text x="495" y="292" text-anchor="middle">STRUCTURE</text><path d="M527 289h18"/><text x="568" y="292" text-anchor="middle">FUNCTION</text></g></svg></div></article><article class="program-item project-global"><div class="program-number">02</div><div class="program-copy"><p class="program-label">Aim 2 · Global H5 · 1996 to 2026</p><h3>A global evolutionary and phenotypic atlas of H5</h3><p class="project-question">How do ecological opportunity, host movement, and phenotypic breadth combine to shape the global evolutionary history of H5?</p><p class="project-summary">Using more than 37,000 H5 hemagglutinin sequences collected from 1996 through 2026, this aim reconstructs how genetic and phenotypic diversity is generated, transmitted, and retained across hosts, regions, clades, and epidemic waves. Time-scaled phylogenies and phylogeographic models quantify lineage movement, host transitions, persistence, and reassortment. Markov jumps and rewards estimate cross-host flow and residence, while structure-derived receptor-binding, stability, and physicochemical traits map functional change onto the tree. The objective is to identify repeatable evolutionary phases and lineages where ecological opportunity converges with phenotypic breadth, creating priority targets for surveillance.</p><div class="project-status"><i></i><span>Global dataset curated through 2026</span></div><div class="project-metrics"><span>37K+ HA sequences</span><span>4K+ variants</span><span>1996 to 2026</span></div><ul><li>Phylogeography</li><li>Host transitions</li><li>Markov jumps and rewards</li><li>Lineage persistence</li><li>Reassortment</li><li>Structural phenotype</li></ul></div><div class="program-visual visual-global"><div class="global-aurora aurora-one"></div><div class="global-aurora aurora-two"></div><svg viewBox="0 0 680 360" role="img" aria-label="Global H5 evolution integrating time-scaled phylogeny, geographic dispersal, host transitions, persistence, reassortment, and structural phenotype"><defs><linearGradient id="globalTreeGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a9d8f"/><stop offset=".5" stop-color="#5271c4"/><stop offset="1" stop-color="#d87961"/></linearGradient><linearGradient id="phaseGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2a9d8f"/><stop offset=".42" stop-color="#6d74c8"/><stop offset=".72" stop-color="#d28a52"/><stop offset="1" stop-color="#bd5e64"/></linearGradient></defs><g class="global-panel global-tree-panel"><rect x="18" y="28" width="192" height="250" rx="18"/><text class="panel-kicker" x="36" y="53">TIME-SCALED PHYLOGENY</text><path class="global-tree-trunk" d="M48 238V82M48 101h34V73h29M82 101v44h41M48 164h45v-34h32M93 164v48h35M48 224h58v-23h32M106 224v34h48"/><g class="global-tree-events"><circle cx="111" cy="73" r="5"/><circle cx="123" cy="145" r="5"/><circle cx="125" cy="130" r="5"/><circle cx="128" cy="212" r="5"/><circle cx="138" cy="201" r="5"/><circle cx="154" cy="258" r="5"/></g><text class="axis-text" x="36" y="266">1996</text><text class="axis-text axis-end" x="192" y="266" text-anchor="end">2026</text></g><g class="global-panel global-map-panel"><rect x="226" y="28" width="224" height="250" rx="18"/><text class="panel-kicker" x="244" y="53">DISPERSAL AND HOST FLOW</text><ellipse class="global-map-ring" cx="338" cy="149" rx="79" ry="67"/><path class="global-map-grid" d="M259 149h158M338 82v134M274 110c40 19 88 19 128 0M274 188c40-19 88-19 128 0M300 85c-32 40-32 87 0 128M376 85c32 40 32 87 0 128"/><g class="global-route"><path id="routeA" d="M275 108Q338 70 402 111"/><path id="routeB" d="M272 178Q338 224 407 173"/><path id="routeC" d="M301 87Q247 149 302 214"/><path id="routeD" d="M375 87Q430 148 376 213"/></g><g class="global-host-nodes"><circle cx="275" cy="108" r="7"/><circle cx="402" cy="111" r="7"/><circle cx="272" cy="178" r="7"/><circle cx="407" cy="173" r="7"/><circle cx="302" cy="214" r="7"/><circle cx="376" cy="213" r="7"/></g><circle class="global-route-particle" r="3"><animateMotion dur="5.2s" repeatCount="indefinite"><mpath href="#routeA"/></animateMotion></circle><circle class="global-route-particle particle-delay" r="3"><animateMotion dur="6.1s" repeatCount="indefinite"><mpath href="#routeB"/></animateMotion></circle><g class="global-host-label-row"><text class="host-label" x="272" y="247" text-anchor="middle">WILD BIRDS</text><text class="host-label" x="338" y="247" text-anchor="middle">POULTRY</text><text class="host-label" x="405" y="247" text-anchor="middle">CATTLE</text></g></g><g class="global-panel global-phenotype-panel"><rect x="466" y="28" width="196" height="250" rx="18"/><text class="panel-kicker" x="484" y="53">FUNCTIONAL LAYERS</text><g class="phenotype-matrix"><rect x="484" y="76" width="29" height="22"/><rect x="519" y="76" width="29" height="22"/><rect x="554" y="76" width="29" height="22"/><rect x="589" y="76" width="29" height="22"/><rect x="484" y="103" width="29" height="22"/><rect x="519" y="103" width="29" height="22"/><rect x="554" y="103" width="29" height="22"/><rect x="589" y="103" width="29" height="22"/><rect x="484" y="130" width="29" height="22"/><rect x="519" y="130" width="29" height="22"/><rect x="554" y="130" width="29" height="22"/><rect x="589" y="130" width="29" height="22"/></g><g class="phenotype-links"><path d="M498 168v25h106v-25M533 168v25M568 168v25"/></g><g class="phenotype-output"><circle cx="498" cy="214" r="8"/><circle cx="551" cy="214" r="10"/><circle cx="604" cy="214" r="8"/><path d="M506 214h35M561 214h35"/></g><g class="phenotype-label-row"><text class="host-label" x="498" y="247" text-anchor="middle">BINDING</text><text class="host-label" x="551" y="247" text-anchor="middle">STABILITY</text><text class="host-label" x="604" y="247" text-anchor="middle">CHARGE</text></g></g><g class="global-phase-track"><text x="20" y="317">EVOLUTIONARY PHASES</text><rect x="148" y="305" width="510" height="17" rx="8.5"/><rect class="global-phase-progress" x="148" y="305" width="510" height="17" rx="8.5"/><g class="phase-marks"><circle cx="208" cy="313.5" r="4"/><circle cx="334" cy="313.5" r="4"/><circle cx="466" cy="313.5" r="4"/><circle cx="602" cy="313.5" r="4"/></g><g class="phase-label-row"><text x="208" y="343" text-anchor="middle">DIVERSIFICATION</text><text x="334" y="343" text-anchor="middle">DISPERSAL</text><text x="466" y="343" text-anchor="middle">PERSISTENCE</text><text x="602" y="343" text-anchor="middle">PRIORITY</text></g></g></svg></div></article><article class="program-item project-learning"><div class="program-number">03</div><div class="program-copy"><p class="program-label">Future direction · Predictive evolutionary biology</p><h3>A structure-informed predictive framework for phenotype and lineage fate</h3><p class="project-question">Can evolutionary history, protein structure, host ecology, and measured phenotype be learned together rather than analyzed as separate data streams?</p><p class="project-summary">This future program will develop statistical and machine-learning frameworks that jointly represent sequence variation, time-scaled phylogenies, protein structure, receptor-site geometry, phenotype, host transitions, and ecological context. The conceptual architecture combines protein language models with structure-aware encoders, multimodal fusion, and flow matching to trace phenotype evolution, rank lineage fate, and identify surveillance priorities. RFdiffusion provides a reference for generative structural modeling, while the central methodological goal remains structure-informed phylodynamics. Foundational training and pilot design are in progress.</p><div class="project-status"><i></i><span>Foundational training and pilot design in progress</span></div><div class="project-metrics"><span>Future direction</span><span>Joint evolutionary model</span><span>Pilot studies planned</span></div><ul><li>Protein language models</li><li>Flow matching</li><li>Multimodal learning</li><li>Structure-informed phylodynamics</li><li>RFdiffusion</li></ul></div><div class="program-visual visual-learning"><div class="future-halo halo-a"></div><div class="future-halo halo-b"></div><svg viewBox="0 0 680 360" role="img" aria-label="Future structure-informed model combining sequence, phylogeny, protein structure, host ecology, multimodal fusion, flow matching, and predictive outputs"><defs><linearGradient id="futureFlowGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a9d8f"/><stop offset=".48" stop-color="#716bc2"/><stop offset="1" stop-color="#d87961"/></linearGradient><radialGradient id="futureCoreGrad"><stop offset="0" stop-color="#ffffff" stop-opacity=".22"/><stop offset=".5" stop-color="#7067c5" stop-opacity=".18"/><stop offset="1" stop-color="#2a9d8f" stop-opacity=".02"/></radialGradient></defs><g class="future-input input-sequence"><rect x="20" y="27" width="144" height="62" rx="15"/><text x="37" y="48">SEQUENCE</text><g class="sequence-tokens"><rect x="37" y="59" width="16" height="16" rx="3"/><rect x="57" y="59" width="16" height="16" rx="3"/><rect x="77" y="59" width="16" height="16" rx="3"/><rect x="97" y="59" width="16" height="16" rx="3"/><rect x="117" y="59" width="16" height="16" rx="3"/></g></g><g class="future-input input-tree"><rect x="20" y="105" width="144" height="62" rx="15"/><text x="37" y="126">PHYLOGENY</text><path class="mini-tree" d="M39 154v-18h22v-8h18M61 136v18h25M86 128h30M86 154h30"/></g><g class="future-input input-structure"><rect x="20" y="183" width="144" height="62" rx="15"/><text x="37" y="204">STRUCTURE</text><path class="mini-protein" d="M39 231c12-30 30 19 43-10s29 19 52-5"/><circle cx="108" cy="219" r="6"/></g><g class="future-input input-ecology"><rect x="20" y="261" width="144" height="58" rx="15"/><text x="37" y="283">HOST AND ECOLOGY</text><circle cx="46" cy="302" r="4"/><circle cx="67" cy="302" r="6"/><circle cx="91" cy="302" r="4"/><path d="M46 302h45"/></g><g class="future-streams"><path id="futurePathA" d="M164 58C220 58 225 132 286 157"/><path id="futurePathB" d="M164 136C222 136 226 158 286 168"/><path id="futurePathC" d="M164 214C224 214 228 188 286 179"/><path id="futurePathD" d="M164 290C224 290 230 211 290 190"/></g><g class="future-flow-core"><circle cx="344" cy="174" r="72"/><circle cx="344" cy="174" r="51"/><circle cx="344" cy="174" r="30"/><g class="flow-vectors"><path d="M307 149l14-8-5 15M328 126l15 1-10 12M362 128l11 10-15 3M384 153l3 15-13-8M382 188l-9 13-4-15M361 212l-15 1 10-12M327 211l-11-10 15-3M303 186l-3-15 13 8"/></g></g><g class="future-core-caption"><text x="344" y="274" text-anchor="middle">FLOW MATCHING</text><text x="344" y="291" text-anchor="middle">MULTIMODAL FUSION</text></g><circle class="future-particle" r="3"><animateMotion dur="4.2s" repeatCount="indefinite"><mpath href="#futurePathA"/></animateMotion></circle><circle class="future-particle p2" r="3"><animateMotion dur="5.1s" repeatCount="indefinite"><mpath href="#futurePathC"/></animateMotion></circle><g class="future-output"><path id="futureOut" d="M416 174C449 174 452 174 478 174"/><rect x="478" y="30" width="182" height="286" rx="18"/><text class="panel-kicker" x="496" y="55">PREDICTIVE OUTPUTS</text><g class="output-trajectory"><path d="M497 98c25-20 43 27 64 2s34 22 82-3"/><circle cx="497" cy="98" r="4"/><circle cx="561" cy="100" r="5"/><circle cx="643" cy="97" r="4"/></g><text x="496" y="129">PHENOTYPE EVOLUTION</text><g class="output-bars"><rect x="497" y="158" width="105" height="10" rx="5"/><rect x="497" y="178" width="78" height="10" rx="5"/><rect x="497" y="198" width="126" height="10" rx="5"/></g><text x="496" y="228">LINEAGE FATE</text><g class="risk-dial"><circle cx="552" cy="270" r="25"/><path d="M552 270l17-13"/><circle cx="552" cy="270" r="4"/></g><text x="590" y="274">RISK</text></g><circle class="future-particle p3" r="3"><animateMotion dur="3.3s" repeatCount="indefinite"><mpath href="#futureOut"/></animateMotion></circle></svg></div></article><!--/build:projects--></div>
+</div>
+</section><section class="foundations" id="foundations">
+<div class="section-shell">
+<div class="section-heading split-heading">
+<div><p class="section-index">06 / Earlier platforms</p><h2>Built across<br/><em>multiple viruses.</em></h2></div>
+<p>My structural-biology foundation began in computational vaccine and antigen design, before expanding into population-scale viral evolution.</p>
+</div>
+<div class="foundation-grid" id="foundation-grid"><!--build:foundations--><article class="foundation-card"><div class="foundation-top"><span>A</span><small>M.S. thesis · Influenza H3N2</small></div><div class="foundation-visual visual-consensus" aria-hidden="true"><div class="consensus-stage"><div class="consensus-scan"></div><div class="consensus-lines"><span><i></i>MNK · ATV · QRL · G</span><span><i></i>MNR · ATV · QKM · G</span><span><i></i>MNG · ATV · QRL · G</span><strong><i></i>MNX · ATV · QRL · G</strong></div><div class="consensus-meter"><b></b><b></b><b></b><b></b><b></b></div></div></div><h3>Consensus-based influenza vaccine design</h3><p>Designed and evaluated consensus HA immunogens to capture sequence diversity while preserving structurally and antigenically important regions, using comparative modeling and integrated sequence and structure analysis.</p><div class="foundation-tags"><span>Consensus design</span><span>HA</span><span>Antigen engineering</span></div></article><article class="foundation-card"><div class="foundation-top"><span>B</span><small>Strauch Lab · Viral fusion proteins</small></div><div class="foundation-visual visual-proline" aria-hidden="true"><div class="rosetta-design-stage"><div class="rosetta-helix"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="rosetta-scan-beam"></div><div class="rosetta-energy"><span style="--h:34%"></span><span style="--h:58%"></span><span class="best" style="--h:82%"></span><span style="--h:49%"></span><span style="--h:68%"></span></div><div class="rosetta-score"><small>ΔΔG</small><strong>PRIORITIZE</strong></div></div><div class="scan-sequence"><span>A</span><span>L</span><span class="p">P</span><span>Q</span><span>V</span><span class="p">P</span><span>G</span><span>K</span><span class="p">P</span><span>L</span></div></div><h3>A Rosetta-guided proline scanner</h3><p>Developed a computational design workflow that introduced candidate proline substitutions, evaluated structural consequences, compared energetic scores, and prioritized mutations for prefusion stabilization across influenza, RSV, hMPV, and SARS-CoV-2 systems.</p><div class="foundation-tags"><span>Rosetta</span><span>Prefusion stabilization</span><span>Proline scanning</span></div></article><article class="foundation-card"><div class="foundation-top"><span>C</span><small>Respiratory-virus structural biology</small></div><div class="foundation-visual visual-viruses" aria-hidden="true"><div class="virus-constellation"><span class="virus-core">ANTIGEN</span><i class="orbit-ring ring-one"></i><i class="orbit-ring ring-two"></i><b class="virus-node v1">IAV</b><b class="virus-node v2">IBV</b><b class="virus-node v3">RSV</b><b class="virus-node v4">hMPV</b><b class="virus-node v5">CoV-2</b><span class="virus-wave wave-a"></span><span class="virus-wave wave-b"></span></div></div><h3>Multi-virus protein and antigen modeling</h3><p>Applied structure prediction, energetic analysis, docking, and molecular dynamics simulation to questions in receptor specificity, glycosylation, antigen conservation, and vaccine design across respiratory viruses.</p><div class="foundation-tags"><span>RSV</span><span>hMPV</span><span>SARS-CoV-2</span><span>Influenza A/B</span></div></article><!--/build:foundations--></div>
+<div class="experimental-foundation">
+  <div class="experimental-photo-grid" aria-label="Laboratory experience">
+    <figure class="experimental-photo experimental-photo-wide">
+      <img src="assets/img/wetlab-pipetting.webp" alt="M H M Mubassir pipetting samples at the bench" width="1400" height="901" loading="lazy" decoding="async"/>
+    </figure>
+    <figure class="experimental-photo">
+      <img src="assets/img/wetlab-instrumentation.webp" alt="M H M Mubassir operating laboratory instrumentation" width="1400" height="1050" loading="lazy" decoding="async"/>
+    </figure>
+  </div>
+  <div class="experimental-copy">
+    <p class="experimental-kicker">Experimental foundations</p>
+    <h3>Computational questions grounded in basic wet-lab experience.</h3>
+    <p>I have foundational hands-on experience with DNA extraction and purification, PCR, agarose gel electrophoresis, marker-assisted selection, basic cell-culture training, and protein purification. This background supports how I interpret molecular, structural, and experimental data without overstating my role as a primarily computational scientist.</p>
+    <div class="experimental-tags" aria-label="Foundational wet-lab techniques">
+      <span>DNA extraction</span><span>DNA purification</span><span>PCR</span><span>Gel electrophoresis</span><span>Marker-assisted selection</span><span>Cell-culture basics</span><span>Protein purification</span>
+    </div>
+  </div>
+</div>
+<div aria-label="Virus systems studied" class="virus-ribbon">
+<span>Influenza A</span><i></i><span>Influenza B</span><i></i><span>RSV</span><i></i><span>hMPV</span><i></i><span>SARS-CoV-2</span><i></i><span>Mpox</span>
+</div>
+</div>
+</section><section class="publications" id="publications">
+<div class="section-shell">
+<div class="section-heading split-heading">
+<div><p class="section-index">07 / Publications</p><h2>Selected work.</h2></div>
+<p>Influenza receptor biology, structural evolution, H5 phylodynamics, protein language models, epidemic modeling, and computational protein science.</p>
+</div>
+<div class="publication-feature">
+<div class="feature-meta"><span>UNDER REVIEW · NATURE</span><span>H5N1 · PHENOTYPE · CROSS-HOST POTENTIAL</span></div>
+<h3>Standing HA phenotypic breadth shapes H5N1 cross-host potential.</h3>
+<p>A population-scale framework connecting H5N1 genetic diversity with structural phenotype, receptor-binding potential, host transitions, and cross-host emergence.</p>
+<div class="feature-authors">M H M Mubassir, S. Subedi, T. Rajamand, M. Bakheet, L. R. Carmola, S. Peng, R. Kandel, G. Stott, R. J. Woods, S. M. Tompkins, G. J. Boons, J. Bahl</div>
+</div>
+<div class="publication-toolbar">
+<div aria-label="Publication filters" class="publication-tabs" role="tablist">
+<button class="active" data-filter="selected" type="button">Selected</button>
+<button data-filter="manuscript" type="button">Manuscripts</button>
+<button data-filter="journal" type="button">Journal articles</button>
+<button data-filter="all" type="button">All</button>
+</div>
+<a href="https://scholar.google.com/citations?hl=en&amp;user=Utb--oIAAAAJ" rel="noopener" target="_blank">Google Scholar <svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a>
+</div>
+<div class="publication-list" id="publication-list"><!--build:publications--><article class="publication-row" data-pub-type="manuscript" data-pub-selected="true" style="--delay:0ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">Under review · Nature</div><h3>Standing HA phenotypic breadth shapes H5N1 cross-host potential</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong>; Subedi, S.; Rajamand, T.; Bakheet, M. A.; Carmola, L. R.; Peng, S.; Kandel, R.; Stott, G.; Woods, R. J.; Tompkins, S. M.; Boons, G. J.; Bahl, J.</p><p class="pub-venue">Nature · Manuscript under review</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row" data-pub-type="manuscript" data-pub-selected="true" style="--delay:45ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">Preprint · Under review</div><h3>Dynamic Risk Maps Predict Highly Pathogenic Avian Influenza Hotspots Across North America</h3><p class="pub-authors">Bakheet, M. A.; Babasola, O.; Næsborg-Nielsen, C.; Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Peng, S.; Rajamand, T.; Bahl, J.</p><p class="pub-venue">Research Square</p></div><a class="pub-arrow" href="https://doi.org/10.21203/rs.3.rs-8605487/v1" target="_blank" rel="noopener" aria-label="Open publication"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a></article><article class="publication-row" data-pub-type="manuscript" data-pub-selected="true" style="--delay:90ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">Under review</div><h3>Ecological and evolutionary drivers of 2.3.4.4b H5Nx HPAI spread in Europe</h3><p class="pub-authors">Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Rajamand, T.; Bakheet, M. A.; Carmola, L. R.; Lyu, L.; Babasola, O.; Peng, S.; Liu, Y.; Kirkeby, C.; Bahl, J.</p><p class="pub-venue">Communications Biology · Manuscript under review</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row" data-pub-type="journal" data-pub-selected="true" style="--delay:135ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">Published</div><h3>A phylogeny-informed mathematical modeling of HPAI H5N1 transmission dynamics and effectiveness of control measures</h3><p class="pub-authors">Babasola, O.; Bakheet, M.; Næsborg-Nielsen, C.; Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Bahl, J.</p><p class="pub-venue">One Health 23, 101490</p></div><a class="pub-arrow" href="https://doi.org/10.1016/j.onehlt.2026.101490" target="_blank" rel="noopener" aria-label="Open publication"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a></article><article class="publication-row" data-pub-type="journal" data-pub-selected="true" style="--delay:180ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">Published</div><h3>A time-delayed epidemic model for control of highly pathogenic avian influenza (HPAI H5Nx) with vaccination, compliance, and non-pharmaceutical interventions</h3><p class="pub-authors">Babasola, O.; Bakheet, M.; Næsborg-Nielsen, C.; Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Bahl, J.</p><p class="pub-venue">Frontiers in Public Health 14, 1819528</p></div><a class="pub-arrow" href="https://doi.org/10.3389/fpubh.2026.1819528" target="_blank" rel="noopener" aria-label="Open publication"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a></article><article class="publication-row" data-pub-type="journal" data-pub-selected="true" style="--delay:225ms"><div class="pub-year">2025</div><div class="pub-main"><div class="pub-status">Editor’s Pick</div><h3>N-glycosylation at the receptor binding site drives differences in receptor binding specificity between influenza B virus lineages</h3><p class="pub-authors">Page, C. K.; <strong>Mubassir, M. H. M.</strong>; Chopra, P.; Gay, L. C.; Geiger, G.; Ray, S. D.; Shepard, J. D.; Miller, R. J.; Perez, D.; Bahl, J.; Boons, G. J.; Tompkins, S. M.</p><p class="pub-venue">Journal of Virology 99(11), e01039-25</p></div><a class="pub-arrow" href="https://doi.org/10.1128/jvi.01039-25" target="_blank" rel="noopener" aria-label="Open publication"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a></article><article class="publication-row" data-pub-type="journal" data-pub-selected="true" style="--delay:270ms"><div class="pub-year">2025</div><div class="pub-main"><div class="pub-status">Published</div><h3>Evolving fitness and immune escape: A retrospective analysis of SARS-CoV-2 spike protein (2020–2024) using a protein language model</h3><p class="pub-authors">Peng, S.; Lyu, L.; Carmola, L. R.; Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Bakheet, M. A.; Bahl, J.</p><p class="pub-venue">Frontiers in Immunology 16, 1576414</p></div><a class="pub-arrow" href="https://doi.org/10.3389/fimmu.2025.1576414" target="_blank" rel="noopener" aria-label="Open publication"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a></article><article class="publication-row is-filtered" data-pub-type="manuscript" data-pub-selected="false" style="--delay:315ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">In preparation</div><h3>MHC-II-EpiPred: Sliding-window scanning for MHC class II epitope discovery via a protein language model</h3><p class="pub-authors">Peng, S.; Carmola, L. R.; Lyu, L.; Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Bakheet, M. A.; Bahl, J.</p><p class="pub-venue">Collaborative manuscript in preparation</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="manuscript" data-pub-selected="false" style="--delay:360ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">In preparation</div><h3>PhyloSpillover: Graph neural network-based prediction of pre-emergence zoonotic spillover risk from avian influenza H5N1 using multi-host phylodynamic simulations</h3><p class="pub-authors">Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Rajamand, T.; Bakheet, M. A.; Carmola, L. R.; Babasola, O.; Peng, S.; Bahl, J.</p><p class="pub-venue">Collaborative manuscript in preparation</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="manuscript" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">In preparation</div><h3>A graph neural network framework for epidemiologically informed phylodynamics of avian influenza H5N1 reassortment in Europe</h3><p class="pub-authors">Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Rajamand, T.; Bakheet, M. A.; Carmola, L. R.; Babasola, O.; Peng, S.; Bahl, J.</p><p class="pub-venue">Collaborative manuscript in preparation</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="manuscript" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">In preparation</div><h3>Phenotypic diversity as an early signal of zoonotic spillover risk</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong>; Subedi, S.; Rajamand, T.; Bakheet, M. A.; Carmola, L. R.; Peng, S.; Babasola, O.; Tompkins, S. M.; Boons, G. J.; Bahl, J.</p><p class="pub-venue">Distinct follow-up manuscript in preparation</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="manuscript" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">In preparation</div><h3>Host lineage shapes gut microbiome structural architecture at the poultry–wildlife interface of avian influenza</h3><p class="pub-authors">Næsborg-Nielsen, C.; <strong>Mubassir, M. H. M.</strong>; Carmola, L. R.; Peng, S.; Babasola, O.; Bakheet, M. A.; Bahl, J.</p><p class="pub-venue">Collaborative manuscript in preparation</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="manuscript" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">In preparation</div><h3>A reproducible R-based protocol for preprocessing avian influenza A (H5Nx, clade 2.3.4.4b) sequence data from GISAID for phylogenetic analysis</h3><p class="pub-authors">Rajamand, T.; Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Bakheet, M. A.; Bahl, J.</p><p class="pub-venue">Collaborative manuscript in preparation</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="manuscript" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">In preparation</div><h3>Standardized wild and domestic host annotations for global avian influenza A (H5Nx, clade 2.3.4.4b) sequences: A curated classification resource</h3><p class="pub-authors">Rajamand, T.; Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Bakheet, M. A.; Bahl, J.</p><p class="pub-venue">Target journal: Scientific Data</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="manuscript" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">In preparation</div><h3>Modeling the risk of HPAI H5N1 spread through cattle networks: Implications for cross-species transmission and pandemic prevention</h3><p class="pub-authors">Rajamand, T.; Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Bakheet, M. A.; Lyu, L.; Babasola, O.; Bahl, J.</p><p class="pub-venue">Collaborative manuscript in preparation</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="manuscript" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2026</div><div class="pub-main"><div class="pub-status">In preparation</div><h3>Quantifying cross-host transmission and seasonal phase structure of U.S. H5N1 using integrated phylodynamics and incidence</h3><p class="pub-authors">Bakheet, M. A.; Babasola, O.; Næsborg-Nielsen, C.; Subedi, S.; <strong>Mubassir, M. H. M.</strong>; Peng, S.; Rajamand, T.; Bahl, J.</p><p class="pub-venue">Collaborative manuscript in preparation</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2024</div><div class="pub-main"><div class="pub-status">Published</div><h3>A mathematical model for understanding and controlling monkeypox transmission dynamics in the United States and its implications for future epidemic management</h3><p class="pub-authors">Islam, M. A. I.; <strong>Mubassir, M. H. M.</strong>; Paul, A. K.; Shanta, S. S.</p><p class="pub-venue">Decoding Infection and Transmission 2, 100031</p></div><a class="pub-arrow" href="https://doi.org/10.1016/j.dcit.2024.100031" target="_blank" rel="noopener" aria-label="Open publication"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2023</div><div class="pub-main"><div class="pub-status">Published</div><h3>Effect of D128N mutation in OsSERK2 in Xa21-mediated innate immunity</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong>; Alvy, R. I.</p><p class="pub-venue">Advances in Agriculture</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2022</div><div class="pub-main"><div class="pub-status">Published</div><h3>How Arabidopsis receptor-like kinase 7 (RLK7) manifests: Delineating its structure and function</h3><p class="pub-authors">Chowdhury, R.; <strong>Mubassir, M. H. M.</strong></p><p class="pub-venue">Advances in Agriculture 2022, 4715110</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2020</div><div class="pub-main"><div class="pub-status">Published</div><h3>Comprehensive in silico modeling of multi-domain plant PRR Xa21 and its interaction with PAMP RaxX21-sY</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong>; Naser, M. A.; Abdul-Wahab, M. F.; Jawad, T.; Alvy, R. I.; Hamdan, S.</p><p class="pub-venue">RSC Advances 10(27), 15800–15814</p></div><a class="pub-arrow" href="https://doi.org/10.1039/D0RA01396J" target="_blank" rel="noopener" aria-label="Open publication"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2019</div><div class="pub-main"><div class="pub-status">Published</div><h3>A brief overview on early events of Xa21-mediated pattern-triggered immunity</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong>; Naser, M. A.; Abdul-Wahab, M. F.; Hamdan, S.</p><p class="pub-venue">Journal of Chemical and Pharmaceutical Sciences 12(2), 1–5</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2019</div><div class="pub-main"><div class="pub-status">Published</div><h3>A synopsis of different plant LRR-RLK structures and functionality</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong></p><p class="pub-venue">American Journal of Biomedical Science &amp; Research 1(2), 84–86</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2017</div><div class="pub-main"><div class="pub-status">Published</div><h3>In-silico structural modeling and molecular dynamics simulation of pathogen-associated molecular pattern RaxX21</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong>; Naser, M. A.; Abdul-Wahab, M. F.; Hamdan, S.</p><p class="pub-venue">Journal of Chemical and Pharmaceutical Sciences 10(1), 121–126</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2016</div><div class="pub-main"><div class="pub-status">Published</div><h3>Measurement of phenotypic variation for control and bacterial-leaf-blight-inoculated rice lines and varieties</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong>; Nasiruddin, K. M.; Shahin, N. H.; Begum, S. N.; Sultana, A.; Rashid, A. Q. M. B.</p><p class="pub-venue">American Journal of Bioscience and Bioengineering 4(6), 59–64</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2016</div><div class="pub-main"><div class="pub-status">Published</div><h3>SSR marker-based genetic diversity analysis of some rice lines and varieties for bacterial leaf blight resistance</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong>; Nasiruddin, K. M.; Shahin, N. H.; Begum, S. N.; Saha, M. K.; Rashid, A. Q. M. B.</p><p class="pub-venue">Journal of Pharmaceutical, Chemical and Biological Sciences 4(4), 475–486</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><article class="publication-row is-filtered" data-pub-type="journal" data-pub-selected="false" style="--delay:400ms"><div class="pub-year">2016</div><div class="pub-main"><div class="pub-status">Published</div><h3>Morpho-molecular screening for bacterial leaf blight resistance in some rice lines and varieties</h3><p class="pub-authors"><strong>Mubassir, M. H. M.</strong>; Nasiruddin, K. M.; Shahin, N. H.; Begum, S. N.; Saha, M. K.; Rashid, A. Q. M. B.</p><p class="pub-venue">Journal of Plant Sciences 4(6), 146–152</p></div><span class="pub-arrow muted" aria-hidden="true">·</span></article><!--/build:publications--></div>
+</div>
+</section><section class="learning" id="learning">
+<canvas aria-hidden="true" id="learning-field"></canvas>
+<div class="section-shell learning-inner">
+<div class="learning-compact-heading">
+<div><p class="section-index">08 / Open science links</p><h2>Tools to use.<br/><em>Ideas to learn.</em></h2></div>
+<p>A small, curated set of browser tools and learning resources that complement the research program.</p>
+</div>
+<div class="learning-compact-grid">
+<section aria-labelledby="toolkit-title" class="learning-panel toolkit-panel">
+<div class="learning-panel-head"><span>Web toolkit</span><h3 id="toolkit-title">Open scientific platforms</h3></div>
+<div class="tool-grid compact-link-list" id="tool-grid"><!--build:tools--><a class="compact-resource-link compact-tool-link" href="https://alphafoldserver.com/" target="_blank" rel="noopener"><span class="compact-link-index">01</span><span class="compact-link-copy"><small>Structure prediction</small><strong>AlphaFold Server</strong><em>Google DeepMind</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></i></a><a class="compact-resource-link compact-tool-link" href="https://robetta.bakerlab.org/" target="_blank" rel="noopener"><span class="compact-link-index">02</span><span class="compact-link-copy"><small>Structure prediction</small><strong>Robetta / RoseTTAFold</strong><em>Baker Lab</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></i></a><a class="compact-resource-link compact-tool-link" href="https://github.com/jwohlwend/boltz" target="_blank" rel="noopener"><span class="compact-link-index">03</span><span class="compact-link-copy"><small>Biomolecular AI</small><strong>Boltz</strong><em>MIT · Recursion</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></i></a><a class="compact-resource-link compact-tool-link" href="https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb" target="_blank" rel="noopener"><span class="compact-link-index">04</span><span class="compact-link-copy"><small>Accessible folding</small><strong>ColabFold</strong><em>ColabFold</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></i></a><a class="compact-resource-link compact-tool-link" href="https://www.rcsb.org/" target="_blank" rel="noopener"><span class="compact-link-index">05</span><span class="compact-link-copy"><small>Experimental structures</small><strong>RCSB Protein Data Bank</strong><em>RCSB PDB</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></i></a><a class="compact-resource-link compact-tool-link" href="https://nextstrain.org/" target="_blank" rel="noopener"><span class="compact-link-index">06</span><span class="compact-link-copy"><small>Phylogenomics</small><strong>Nextstrain / Auspice</strong><em>Nextstrain</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></i></a><!--/build:tools--></div>
+</section>
+<section aria-labelledby="shelf-title" class="learning-panel shelf-panel">
+<div class="learning-panel-head"><span>Learning shelf</span><h3 id="shelf-title">Talks, courses, and communities</h3></div>
+<div class="learning-grid compact-link-list" id="resource-grid"><!--build:resources--><a class="compact-resource-link compact-learning-link" href="https://www.youtube.com/@bpdmc/videos" target="_blank" rel="noopener"><span class="compact-link-index">01</span><span class="compact-link-copy"><small>Protein design community</small><strong>Boston Protein Design and Modeling Club</strong><em>BPDMC</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-play" viewBox="0 0 20 20"><path d="m8 6 6 4-6 4Z"/></svg></i></a><a class="compact-resource-link compact-learning-link" href="https://www.youtube.com/playlist?list=PLFavr8uo6kSr9ms7g7eQI5CqAJSP8kpf7" target="_blank" rel="noopener"><span class="compact-link-index">02</span><span class="compact-link-copy"><small>AI protein design</small><strong>Machine Learning for Protein Design Bootcamp</strong><em>Rosetta Commons</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-play" viewBox="0 0 20 20"><path d="m8 6 6 4-6 4Z"/></svg></i></a><a class="compact-resource-link compact-learning-link" href="https://www.youtube.com/watch?v=KpedmJdrTpY" target="_blank" rel="noopener"><span class="compact-link-index">03</span><span class="compact-link-copy"><small>Structural biology</small><strong>Protein folding explained</strong><em>Google DeepMind</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-play" viewBox="0 0 20 20"><path d="m8 6 6 4-6 4Z"/></svg></i></a><a class="compact-resource-link compact-learning-link" href="https://www.youtube.com/playlist?list=PLS4EOa5fdsSvBkARqHV_cuBKLw9aMAlum" target="_blank" rel="noopener"><span class="compact-link-index">04</span><span class="compact-link-copy"><small>Phylodynamics</small><strong>Phylodynamics: concepts and applications</strong><em>Fogarty International Center</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-play" viewBox="0 0 20 20"><path d="m8 6 6 4-6 4Z"/></svg></i></a><a class="compact-resource-link compact-learning-link" href="https://www.youtube.com/playlist?list=PLsFWZl6SQqWxN9SkbgdjU8sylIfhZNDiW" target="_blank" rel="noopener"><span class="compact-link-index">05</span><span class="compact-link-copy"><small>Genomic surveillance</small><strong>Nextstrain narratives tutorial</strong><em>Nextstrain</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-play" viewBox="0 0 20 20"><path d="m8 6 6 4-6 4Z"/></svg></i></a><a class="compact-resource-link compact-learning-link" href="https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU" target="_blank" rel="noopener"><span class="compact-link-index">06</span><span class="compact-link-copy"><small>Machine learning</small><strong>CS229: Machine Learning</strong><em>Stanford Online</em></span><i aria-hidden="true" class="compact-link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-play" viewBox="0 0 20 20"><path d="m8 6 6 4-6 4Z"/></svg></i></a><!--/build:resources--></div>
+</section>
+</div>
+<div class="learning-note compact-learning-note"><span>Bayesian phylogenetics</span><p>Hands-on tutorials: <a href="https://taming-the-beast.org/" rel="noopener" target="_blank">Taming the BEAST <svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a></p></div>
+</div>
+</section><section class="conferences" id="talks">
+<div class="section-shell">
+<div class="section-heading light-heading split-heading">
+<div><p class="section-index">09 / Conferences</p><h2>Ideas in public.</h2></div>
+<p>Selected posters and presentations on influenza evolution, receptor binding, molecular simulation, and protein structure.</p>
+</div>
+<div class="conference-stage">
+<div class="conference-spotlight">
+<figure class="conference-feature">
+<img src="assets/img/conference-ceirr.webp" alt="M H M Mubassir presenting research at a scientific meeting" loading="lazy" decoding="async" width="1800" height="1266"/>
+<span class="conference-feature-year">2026</span>
+<figcaption>Presenting research on viral evolution and structural biology.</figcaption>
+</figure>
+<div class="conference-spotlight-copy">
+<span class="spotlight-type">Conference presentation</span>
+<h3>An evolutionary trajectory of H5 hemagglutinin phenotypes across U.S. clade 2.3.4.4b.</h3>
+<p>Ecology and Evolution of Infectious Diseases · Virginia Tech · Blacksburg, Virginia</p>
+</div>
+</div>
+<div class="conference-list" id="conference-list"><!--build:conferences--><article><div><span>2026</span><small>Presentation</small></div><div><h3>An evolutionary trajectory of H5 hemagglutinin phenotypes across U.S. clade 2.3.4.4b</h3><p>Ecology and Evolution of Infectious Diseases · Virginia Tech · Blacksburg, VA · June 1 to 4</p></div></article><article><div><span>2026</span><small>Presentation</small></div><div><h3>Phenotypic flexibility, rather than optimization, governs pandemic potential</h3><p>CEIRR 5th Annual Network Meeting · Emory University · Atlanta, GA · May 26 to 29</p></div></article><article><div><span>2025</span><small>Poster</small></div><div><h3>An integrative atlas of receptor-binding evolution in U.S. H5N1 2.3.4.4b viruses</h3><p>CEIRR 4th Annual Network Meeting · University of Georgia · Athens, GA · May 27 to 30</p></div></article><article><div><span>2024</span><small>Poster</small></div><div><h3>Integrating molecular dynamics and phylodynamics to unravel sialic-acid and HA interaction patterns in avian H5 2.3.4.4b influenza</h3><p>CEIRR Conference · New York, NY</p></div></article><article><div><span>2022</span><small>Poster</small></div><div><h3>Establishing a proline scanner for stabilizing virus class I fusion proteins</h3><p>RosettaCon · USA</p></div></article><article><div><span>2017</span><small>Presentation</small></div><div><h3>Structural dynamics of endogenous peptide AtPep1</h3><p>ASIA International Multidisciplinary Conference · Malaysia</p></div></article><!--/build:conferences--></div>
+</div>
+</div>
+</section><section class="practice" id="practice">
+<div class="section-shell">
+<div class="section-heading split-heading">
+<div><p class="section-index">10 / Science in practice</p><h2>Scientific exchange,<br/><em>beyond the screen.</em></h2></div>
+<p>Research grows through shared ideas, thoughtful conversation, and engagement with the wider scientific community.</p>
+</div>
+<div class="practice-grid">
+<figure class="practice-card">
+<img src="assets/img/scientific-exchange-structure.webp" alt="M H M Mubassir discussing protein structure with a colleague" loading="lazy" decoding="async" width="1469" height="1500"/>
+<figcaption><span>Protein structure</span><strong>Scientific exchange around protein modeling, design, and structural biology.</strong></figcaption>
+</figure>
+<figure class="practice-card practice-card-predictive">
+<img src="assets/img/scientific-exchange-predictive.webp" alt="M H M Mubassir in conversation with a colleague about predictive biology" loading="lazy" decoding="async" width="1090" height="1350"/>
+<figcaption><span>Predictive biology</span><strong>Community conversations on emerging methods in AI and protein science.</strong></figcaption>
+</figure>
+</div>
+</div>
+</section><section class="news" id="news">
+<div class="section-shell">
+<div class="section-heading split-heading">
+<div><p class="section-index">11 / News</p><h2>Recent signals.</h2></div>
+<p>A concise record of recent publications, public research, and milestones.</p>
+</div>
+<div class="news-grid" id="news-grid"><!--build:news--><article class="news-card"><div class="news-meta"><span>JUL 2026</span><span>Manuscript</span></div><h3>First-author H5N1 phenotype manuscript is under review at Nature.</h3><div class="news-arrow"><span class="news-dot"></span></div></article><a class="news-card" href="https://doi.org/10.1016/j.onehlt.2026.101490" target="_blank" rel="noopener"><div class="news-meta"><span>JUN 2026</span><span>Publications</span></div><h3>Two HPAI modeling studies were published in One Health and Frontiers in Public Health.</h3><div class="news-arrow"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></div></a><a class="news-card" href="https://doi.org/10.21203/rs.3.rs-8605487/v1" target="_blank" rel="noopener"><div class="news-meta"><span>JAN 2026</span><span>Preprint</span></div><h3>Dynamic risk maps identify shifting HPAI hotspots across North America.</h3><div class="news-arrow"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></div></a><a class="news-card" href="https://thescope.vet.uga.edu/flu-b-at-uga" target="_blank" rel="noopener"><div class="news-meta"><span>NOV 2025</span><span>Research feature</span></div><h3>UGA featured our Journal of Virology Editor’s Pick study on influenza B receptor specificity.</h3><div class="news-arrow"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></div></a><!--/build:news--></div>
+</div>
+</section><section class="contact" id="contact">
+<canvas aria-hidden="true" id="contact-field"></canvas>
+<div class="section-shell contact-inner">
+<p class="section-index">12 / Contact</p>
+<h2>Let’s connect across<br/><em>evolution, structure, and phylodynamics.</em></h2>
+<p>For research discussion, collaboration, invited talks, or academic correspondence.</p>
+<a class="contact-email" href="mailto:mhmmubassir@uga.edu">mhmmubassir@uga.edu <span class="link-icon"><svg aria-hidden="true" class="ui-icon ui-icon-diagonal" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></span></a>
+<div class="social-links">
+<a href="https://scholar.google.com/citations?hl=en&amp;user=Utb--oIAAAAJ" rel="noopener" target="_blank">Scholar</a>
+<a href="https://orcid.org/0000-0002-9674-2425" rel="noopener" target="_blank">ORCID</a>
+<a href="https://github.com/mhmmubassir" rel="noopener" target="_blank">GitHub</a>
+<a href="https://www.linkedin.com/in/mhmmubassir" rel="noopener" target="_blank">LinkedIn</a>
+<a href="https://www.researchgate.net/profile/M-H-M-Mubassir" rel="noopener" target="_blank">ResearchGate</a>
+<a href="https://www.bracu.ac.bd/about/people/m-h-m-mubassir" rel="noopener" target="_blank">BRAC University</a>
+</div>
+</div>
+</section></main>
+<footer>
+<div class="footer-inner">
+<span>© <span id="year">2026</span> M H M Mubassir</span>
+<span>Research portfolio maintained by M. H. M. Mubassir</span>
+<button class="back-to-top" data-cursor-label="BACK TO TOP" id="back-to-top" type="button">Back to top <svg aria-hidden="true" class="ui-icon ui-icon-up" viewBox="0 0 20 20"><path d="m5.5 12 4.5-4.5 4.5 4.5"/></svg></button>
+</div>
+</footer>
+<!-- content.js is now a build-time data file only (see build/prerender.js); it is no longer shipped.
+     Mol* (4.8 MB) is fetched lazily by site.js when the structure section approaches the viewport. -->
+<script defer src="assets/js/methods-network.js?v=20260722-v7"></script>
+<script defer src="assets/js/site.js?v=20260722-v7"></script>
+</body>
+</html>
